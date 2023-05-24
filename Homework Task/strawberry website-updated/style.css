@@ -1,0 +1,172 @@
+
+body {
+    background-color:rgb(243, 198, 228);
+     color:black
+     
+ }
+
+ .bg-img {
+    background-image: url("mix\ of\ jams.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #ac2f7c;
+  }
+ .navbar a{
+    float:left;
+    text-align:center;
+    padding:20px 25px;
+    color:antiquewhite;
+    text-decoration:none;
+    font-size:20px;
+
+ }
+ .navbar a:hover {
+    background-color: blueviolet;
+ }
+ 
+ /*.navbar-right{
+    float:right;
+ }*/
+ @media screen and (max-width:500px){
+    .navbar a{
+        float:none;
+        display:block;
+    }
+    .p{
+    padding:0% 5%;
+    color:#ac2f7c;
+    }
+ }
+
+
+ .p {
+    text-align: center;
+    font-size:30px;
+    margin:auto;
+    padding:0px 25%;
+    font-family: 'Fasthand', cursive;
+    
+ }
+
+ .parent-container {
+   display:flex;
+   justify-content: space-evenly;
+   flex-direction:row-reverse;
+   flex-wrap:wrap;
+   
+
+   
+}
+.content{
+   width:55%;
+   background-color:rgb(243, 198, 228);
+   font-family: 'Fasthand', cursive;
+   padding: 0% 20%;
+   border-radius: 10%;
+   text-align: center;
+
+}
+.content>img{
+   width: 700px;
+   height: 470px;
+   border-radius: 10%;
+   background-position:center;
+   
+}
+ 
+.content>p{
+   font-size: 25px;
+  display: block;
+   list-style-type: none;
+   padding: auto;
+ text-align: center;
+   
+ }
+ #carousel{
+   height: 500px;
+   width: 900px;
+   animation-name: carousel;
+   animation-duration: 12s;
+   animation-iteration-count: infinite;
+   margin-right:15%;
+   margin-top:5%;
+   border-radius: 5%;
+   background-size: cover;
+}
+
+@keyframes carousel {
+   0%{
+       background-image: url('./strawberries.jpg');
+       transition: background-image 1s;
+   }
+
+   25%{
+       background-image: url('./raspberry\ jam.jpg');
+       transition: background-image 1s;
+   }
+
+   50%{
+       background-image: url('./blackberry\ jam.jpg');
+       transition: background-image 1s;
+   }
+
+   75%{
+       background-image: url('./peach\ jam.jpg');
+       transition: background-image 1s;
+   }
+
+   100%{
+      background-image: url('./black\ currant\ jam.jpg');
+      transition: background-image 1s;
+  }
+}
+
+.col1 {
+  margin-top:-27%;
+   padding-left: 75%;
+}
+
+.col2 {
+   padding:0% 45%;
+   margin-top:15%;
+   
+}
+
+#footer{
+   display:flex;
+   justify-content: space-evenly;
+   background-color: rgb(189, 93, 122);
+   color:black;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+
+.list1>ul{
+   list-style-type:none;
+   background-position: center;
+   padding-left: 5%;
+   font-size: 19px;
+}
+.social-icons i{
+   font-size: 22px;
+   margin: 10px;
+   cursor: pointer;
+ }
+.list2>ul{
+   list-style-type:none;
+   background-position: center;
+   padding-left: 5%;
+   font-size: 19px;
+}
