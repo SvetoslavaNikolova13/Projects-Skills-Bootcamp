@@ -8,7 +8,8 @@
 body {
     margin:0;
     padding:0;
-    background-image: linear-gradient(rgb(197, 240, 250), rgb(197, 243, 217));
+    background: linear-gradient(to left top, rgb(113, 240, 181), rgb(122, 224, 231));
+    /*background: linear-gradient(rgb(81, 212, 241), rgb(197, 243, 217));
     /*font-family: 'Libre Franklin', sans-serif;
      font-family: 'Nanum Gothic', sans-serif;
      font-family: 'Quicksand', sans-serif;*/
@@ -41,7 +42,7 @@ body {
 }
 
 .navbar-links li {
-   list-style: none;
+    list-style: none;
   }
 
 
@@ -63,12 +64,12 @@ body {
  }
 
  #search-field{
-  width:200px;
-  padding:3px;
-  padding-left: 100px;
-  margin-top: 15px;
-  text-align: right;
-  border:none;
+    width:200px;
+    padding:3px;
+    padding-left: 100px;
+    margin-top: 15px;
+    text-align: right;
+    border:none;
     border-radius: 0 10px 0 10px;
     font-size: 15px;
 
@@ -111,47 +112,50 @@ body {
       font-size: 5px;*/
 
   .navbar-links {
-    width:100%;
+    width:110%;
     display:none;
     }
 
-    .navbar {
-        flex-direction:column;
-        align-items: flex-start;
+  .navbar {
+    flex-direction:column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width:100%;
+    flex-direction:column;
     }
 
-    .navbar-links ul {
-        width:100%;
-        flex-direction:column;
-    }
-
-    .navbar-links li {
-        text-align:left;
+  .navbar-links li {
+    text-align:left;
     }
 
   
-    .navbar-links li a {
-        padding: 8px 16px;
+  .navbar-links li a {
+    padding: 8px 16px;
     }
 
-    .navbar-links.active{
-        display:flex;
+  .navbar-links.active{
+    display:flex;
     }
-
-
+  
+  .navbar-links li a:hover {
+    background-color:  #2dbfe4;
+     
+}
  }
-    .container{
+  .container{
     position: relative;
     text-align: center;
  
   }
 
   .container img{
-  width: 100%; 
-  height:350px;
+    width: 100%; 
+    height:350px;
  
   }
-   .center {
+  .center {
     color:rgb(44, 70, 57);
     position: absolute;
     top: 50%;
@@ -164,9 +168,9 @@ body {
   }
 
   h2 {
-   text-align:center;
-   padding:0% 20%;
-   font-family: 'Nanum Gothic', sans-serif;
+    text-align:center;
+    padding:0% 20%;
+    font-family: 'Nanum Gothic', sans-serif;
   }
   
  .p{
