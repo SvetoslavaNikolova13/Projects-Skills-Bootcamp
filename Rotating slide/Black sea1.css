@@ -11,13 +11,13 @@ body {
  align-items: center;
  justify-content: center;
  overflow: hidden;
- background-image: url("./milky\ way.jpg");
+ background-image: url("milky-way.jpg");
  background-repeat: no-repeat;
  background-size: cover;
 }
 .slider{
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 130px;
   position:relative;
   transform-style: preserve-3d;
   animation: rotate 30s linear infinite;
@@ -40,7 +40,7 @@ body {
   height:100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i)*28deg)) translateZ(430px);
+  transform: rotateY(calc(var(--i)*25.7deg)) translateZ(430px);
  }
  .slider span img {
   position: absolute;
